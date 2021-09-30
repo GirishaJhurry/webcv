@@ -1,119 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="stylesheet" href="cv.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="lo3.jpeg"
-    />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="stylesheet" href="cv.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="lo3.jpeg" />
 </head>
 
 <body>
 
-    <div class="h">Curriculum Vitae</div>
-    <div><img class="image" src="photo.jpeg"></div>
+  <div class="h">Curriculum Vitae</div>
+  <div><img class="image" src="photo.jpeg"></div>
 
-    <p class="intro">
-      Hello, I am Girisha Jhurry and enrolled for the course BSc Computer Science at The
-      University Of Mauritius. I am currently in my level 2. I am an organised and focused individual with excellent attention to detail. My calm and hardworking nature
-      means that I am able to work well under pressure and tight time restrictions.
-      <br><br><br>
-      I enjoy working on team oriented projects and solving any problems that may arise and most
-      importantly coding. I’m always striving to expand my skills, knowledge and to benefit your company while
-      amassing the necessary tools and skills to start a long standing career.<br><br>
-    </p>
+  <p class="intro">
+    Hello, I am Girisha Jhurry and enrolled for the course BSc Computer Science at The
+    University Of Mauritius. I am currently in my level 2. I am an organised and focused individual with excellent
+    attention to detail. My calm and hardworking nature
+    means that I am able to work well under pressure and tight time restrictions.
+    <br><br><br>
+    I enjoy working on team oriented projects and solving any problems that may arise and most
+    importantly coding. I’m always striving to expand my skills, knowledge and to benefit your company while
+    amassing the necessary tools and skills to start a long standing career.<br><br>
+  </p>
 
-    <div class="b">
-      <a href="#"> button</a>
-      <a href="#"> button</a>
-    </div>
-    <script type="text/Javascript">
-      const button = document.querySelectorAll('a');
-      btn.addEventListener('click', function(e) {
-        let x = e.clientX - e.targetOffsetLeft;
-        let y = e.clienty - e.targetOffsetTop;
+  <br><br><br>
+  <div class="b">
+    <a href="#" class="button" onclick="myFunction('skills')"> Training and Experiences</a>
+    <a href="#" class="button" onclick="myFunction('Qualities')"> Qualities</a>
+  </div>
+  <br>
 
-        let ripple = document.createElement('span');
-        ripple.style.left = x + 'px';
-        ripple.style.top = y + 'px';
-        this.appendChild(ripple);
+  <p style="font-size: 50px; font-family: 'Lucida Handwriting'; color: rgb(161, 60, 49); text-align: center;">Training
+    and Experiences</p>
 
-        setTimeout(() => {
-          ripple.remove()
-        }, 1000);
-      })
+  <div class="skills" id="skills">
+    <b>Languages learned:</b>
+    <br>C
+    <br>VB
+    <br>C++
+    <br>C#
+    <br>Java
+    <br>Python
+    <br><br><br>
 
-    </script>
+    <b>Knowledge:</b>
+    <br>Javascript
+    <br>PHP
+    <br>CSS
+    <br>JQuery
+    <br>JSON
+    <br>AJAX
+    <br>Bootstrap
+    <br>MySQL
+    <br>SQL
+    <br>Database
+    s<br>Linux
+    <br><br><br>
 
-    
+    <b>Courses Completed:</b>
+    <br>Rosetta Stone
+    <br>IC3 (Internet and Computing Core Certificate)
+    <br>Computer Awareness(Word/Excel)
+    <br>Alliance Francaise(2009-2010)
+    <br><br><br>
+  </div>
 
-      <p style="font-size: 50px; font-family: 'Lucida Handwriting'; color: rgb(161, 60, 49); text-align: center;">Training and Experiences</p>
+  <p style="font-size: 50px; font-family: 'Lucida Handwriting'; color: rgb(161, 60, 49); text-align: center;">Qualities
+  </p>
 
-    <div class="skills">
-      <b>Languages learned:</b>
-      <br>C 
-      <br>VB 
-      <br>C++
-      <br>C#
-      <br>Java
-      <br>Python
-      <br><br><br>
-
-      <b>Knowledge:</b>
-      <br>Javascript
-      <br>PHP
-      <br>CSS
-      <br>JQuery
-      <br>JSON
-      <br>AJAX
-      <br>Bootstrap
-      <br>MySQL
-      <br>SQL
-      <br>Database
-      s<br>Linux
-      <br><br><br>
-
-      <b>Courses Completed:</b>
-      <br>Rosetta Stone
-      <br>IC3 (Internet and Computing Core Certificate)
-      <br>Computer Awareness(Word/Excel)
-      <br>Alliance Francaise(2009-2010)
-      <br><br><br>
-    </div> 
-
-    <p style="font-size: 50px; font-family: 'Lucida Handwriting'; color: rgb(161, 60, 49); text-align: center;">Qualities</p>
-
-    <div class="Qualities">
-      Friendly Nature<br>
-      Teamwork <br>
-      Independency<br>
-      Innovation Oriented<br>
-      Responsible<br>
-      Proactive<br>
-      Self Motivated<br>
-      Willingness to learn<br>
-    </div> 
+  <div class="Qualities">
+    Friendly Nature<br>
+    Teamwork <br>
+    Independency<br>
+    Innovation Oriented<br>
+    Responsible<br>
+    Proactive<br>
+    Self Motivated<br>
+    Willingness to learn<br>
+  </div>
 </body>
 
-<footer>
- 
+<br><br><br>
 
-<div class="foot"> 
-   <ul>
-     <a class="dropbtn">
-        <li><a href="https://www.facebook.com/jhurry.girisha"><img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp"></a></li>
-        <li><a href="https://www.instagram.com/gi.risha/"><img src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"></a></li>
-        <li><a href="https://www.linkedin.com/in/girisha-jhurry-50695b21b/"><img src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/6ea5b4a88f0b4f91945b40499aa0af00.webp"></a></li> 
-      </a>
-   </ul>
+<footer>
+  <div class="foot">
+    <ul class="dropbtn">
+      <li><a href="https://www.facebook.com/jhurry.girisha"><img
+            src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp"></a>
+      </li>
+      <li><a href="https://www.instagram.com/gi.risha/"><img
+            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"></a>
+      </li>
+      <li><a href="https://www.linkedin.com/in/girisha-jhurry-50695b21b/"><img
+            src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/6ea5b4a88f0b4f91945b40499aa0af00.webp"></a>
+      </li>
+    </ul>
 
   </div>
 
 </footer>
+
+
+<script>
+  function myFunction(myClass) {
+    var x = document.getElementsByClassName(myClass)[0];
+    // 
+    console.log(x);
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";;
+    }
+  }
+</script>
+
 </html>

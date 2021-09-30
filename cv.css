@@ -55,6 +55,7 @@ body
 }
 
 .skills{
+    
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
@@ -79,10 +80,10 @@ body
 }
 
 .foot{
-    background-color: darkslategray;
+    background-color:  rgb(245, 165, 156);
     text-align: center;
-    margin-top: 100px;
-    padding: 50px;
+    /* margin-top: 100px; */
+    /* padding: 50px; */
 }
 
 ul{
@@ -123,55 +124,60 @@ li a,
     }
 
     .foot{
-        background-color: darkslategray;
+        background-color: rgb(245, 165, 156);
         margin-top: 100px;
         padding: 50px;
+    }
+
+    .dropbtn{
+        transform:translateX(-500px);
     }
 
 
 }
 
+.b{
+    /* justify-self: center;
+    margin:auto 0; */
+    position: absolute;
+    transform: translate(35%, -50%);
+}
 .b a
 {
+    width:500px;
     position: 100px;
     display: inline-block;
-    padding: 12px 36spx;
+    padding: 12px 36px;
     margin: 10px 10;
     color: #fff;
     text-decoration: none;
+    text-align: center;
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 2px;
     border-radius: 40px;
     overflow: hidden;
-    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    background: rgb(245, 165, 156);
 }
 
-.b a:nth-child(2)
-{
-    background: linear-gradient(90deg, #755bea, #ff72c0);
+.skills, .Qualities{
+    display: none;
+} 
+
+.dropbtn,.dropbtn ul, .dropbtn a{
+    padding:0;
+    border:0;
+    margin: 0;
+}
+.dropbtn{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-span{
-    position:absolute;
-    background: #fff;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    animation: animate 1s linear infinite;
-}
-
-@keyframes animate
-{
-    0%
-    {
-        width: 0px;
-        height: 0px;
-        opacity: 0.5;
+/* @media screen and (max-width:600px){
+    .dropbtn{
+        transform:translateX(-500px);
     }
-    100%
-    {
-        width: 50px;
-        height: 50px;
-        opacity: 0;
-    }
-}
+} */
